@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "ea84c476f638ce2d1a0996e594cc1409be56ffcd123cd2c2c1ed0a5ffda5fd24b879235fd815ebe345e81ddad2dd27aa05;57350ed922500a9648f77fa9",
+      "2ed439e3be877dd076cc53f3a45ddc7541ad9b029b71564f5b9f1221de6b3bfd1cc638ca7e2a1a66034edd5f8bd5127154;da666010533c728c02f0fdc3",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -172,7 +172,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "hardisk",
+    siteName: "Moon Drive",
     siteNameTemplate: "%s - %t",
     siteDescription: "Hardik's Cloud",
     siteIcon: "/logo.svg",
