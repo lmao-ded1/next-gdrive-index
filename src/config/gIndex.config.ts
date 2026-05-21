@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "581f07b9c4fdb350f1235d7bd9859eb73e56f4ec78e3b71eb3827797b91927d890b124341e0ff03353a1aa36c8bed9644c;fd81453f02dd3594907c61a6",
+      "ea84c476f638ce2d1a0996e594cc1409be56ffcd123cd2c2c1ed0a5ffda5fd24b879235fd815ebe345e81ddad2dd27aa05;57350ed922500a9648f77fa9",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
