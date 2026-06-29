@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import { type Metadata } from "next";
 import { JetBrains_Mono, Outfit, Source_Sans_3 } from "next/font/google";
 import { headers } from "next/headers";
@@ -137,6 +138,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           <Footer content={formatFooterContent(config.siteConfig.footer ?? [])} />
           <ToTop />
         </Provider>
+        <Analytics />
       </body>
     </html>
   );
